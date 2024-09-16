@@ -8,7 +8,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
 export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
     try {
         // Use the environment variable for the API URL
-        const { data } = await axios.get(`${apiUrl}/api/v1/product/${id}`);
+        const { data } = await axios.get(`/api/v1/product/${id}`);
 
         dispatch({
             type: ADD_TO_CART,
