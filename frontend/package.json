@@ -60,5 +60,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://192.168.50.180:4000"
+  "proxy": "https://ecommerce-backend-dxs5.onrender.com"
 }
